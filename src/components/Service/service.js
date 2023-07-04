@@ -12,34 +12,34 @@ class Process extends Component {
       services1: [
         {
           icon: "pe-7s-diamond",
-          title: "Service 1",
+          title: "Painting/Spackling",
           desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
         },
         {
           icon: "pe-7s-display2",
-          title: "Service 2",
+          title: "Woodwork",
           desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
         },
         {
           icon: "pe-7s-piggy",
-          title: "Service 3",
+          title: "Kitchen",
           desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
         }
       ],
       services2: [
         {
           icon: "pe-7s-science",
-          title: "Service 4",
+          title: "Bathroom",
           desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
         },
         {
           icon: "pe-7s-news-paper",
-          title: "Service 5",
+          title: "Facade",
           desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
         },
         {
           icon: "pe-7s-plane",
-          title: "Service 6",
+          title: "Garden Work",
           desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
         }
       ]
@@ -52,10 +52,7 @@ class Process extends Component {
         <section className={"section " + this.props.sectionClass} id="services">
           <Container>
             {/* section title */}
-            <SectionTitle
-              title="Our services"
-              desc="Fr your needs"
-            />
+            <SectionTitle title="Our services" desc="For your needs" />
 
             <Row className="mt-4">
               {/* services box */}
