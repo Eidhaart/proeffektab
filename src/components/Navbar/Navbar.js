@@ -48,7 +48,7 @@ const Navbar = () => {
             </div>
             <div className="container1">
               <a href="/" className="logo">
-                <NavbarBrand id="logo" className="logo text-uppercase" href="/">
+                <NavbarBrand id="logo" className="logo text-uppercase" href="/proeffektab">
                   ProEffekt AB
                 </NavbarBrand>
               </a>

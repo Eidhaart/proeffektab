@@ -93,13 +93,13 @@
     text-align: center !important;
     text-align: -webkit-center;
     margin: 0 auto;
+    width: 50px !important;
   }
   .container1 {
     display: flex;
     justify-self: center;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
   .container1 img {
     width: 50px !important;
@@ -118,7 +118,7 @@
   .nav-button-container {
     display: block;
     margin-left: 5px;
-    color: #580707;
+    color: #000000;
     font-size: 24px;
     /* left: -189px; */
     position: fixed;
@@ -146,8 +146,6 @@
 
   .logo1 {
     margin: auto;
-    width: 100%;
-
     padding: 10px;
   }
   .container1 {
