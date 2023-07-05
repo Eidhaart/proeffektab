@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/proeffektab/static/css/main.b8144b9c.css",
-    "main.js": "/proeffektab/static/js/main.551cdc97.js",
+    "main.css": "/proeffektab/static/css/main.797e5156.css",
+    "main.js": "/proeffektab/static/js/main.1a846d53.js",
     "static/js/787.44d76caa.chunk.js": "/proeffektab/static/js/787.44d76caa.chunk.js",
     "static/media/home-icon.png": "/proeffektab/static/media/home-icon.0ac43610a077f4b45834.png",
     "static/media/mail-icon.png": "/proeffektab/static/media/mail-icon.1253c14a42e537df63f2.png",
     "index.html": "/proeffektab/index.html",
-    "main.b8144b9c.css.map": "/proeffektab/static/css/main.b8144b9c.css.map",
-    "main.551cdc97.js.map": "/proeffektab/static/js/main.551cdc97.js.map",
+    "main.797e5156.css.map": "/proeffektab/static/css/main.797e5156.css.map",
+    "main.1a846d53.js.map": "/proeffektab/static/js/main.1a846d53.js.map",
     "787.44d76caa.chunk.js.map": "/proeffektab/static/js/787.44d76caa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8144b9c.css",
-    "static/js/main.551cdc97.js"
+    "static/css/main.797e5156.css",
+    "static/js/main.1a846d53.js"
   ]
 }
