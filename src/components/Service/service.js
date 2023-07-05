@@ -12,37 +12,37 @@ class Process extends Component {
       services1: [
         {
           icon: "pe-7s-diamond",
-          title: "Painting/Spackling",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
+          title: "Painting / Spackling",
+          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
         },
         {
           icon: "pe-7s-display2",
           title: "Woodwork",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
+          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
         },
         {
           icon: "pe-7s-piggy",
           title: "Kitchen",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
-        }
+          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        },
       ],
       services2: [
         {
           icon: "pe-7s-science",
           title: "Bathroom",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
+          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
         },
         {
           icon: "pe-7s-news-paper",
           title: "Facade",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
+          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
         },
         {
           icon: "pe-7s-plane",
-          title: "Garden Work",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. "
-        }
-      ]
+          title: "Garden work",
+          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        },
+      ],
     };
   }
 

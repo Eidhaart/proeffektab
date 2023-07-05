@@ -13,18 +13,18 @@ class Process extends Component {
       processes: [
         {
           icon: "pe-7s-pen",
-          title: "STEP 1",
-          desc: "Process"
+          title: "Contact us",
+          desc: "Ask a question"
         },
         {
           icon: "pe-7s-id",
-          title: "STEP 2",
-          desc: "Process"
+          title: "Free quote",
+          desc: "Transparent communication"
         },
         {
           icon: "pe-7s-target",
-          title: "STEP 3",
-          desc: "Process"
+          title: "Getting to work",
+          desc: "In Cooperation with the client"
         }
       ]
     };
@@ -36,10 +36,7 @@ class Process extends Component {
         <section className="section bg-light">
           <Container>
             {/* section title */}
-            <SectionTitle
-              title="WORK PROCESS"
-              desc="orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, neque et auctor lacinia, odio turpis ullamcorper tortor, tincidunt eleifend mauris sapien sed risus. Duis volutpat posuere justo quis varius. Nulla sem nulla, finibus vestibulum vestibulum quis, fringilla vitae purus. "
-            />
+            <SectionTitle title="WORK PROCESS" desc="" />
 
             <Row>
               <Col lg={6} className="text-center process-left-icon-1">

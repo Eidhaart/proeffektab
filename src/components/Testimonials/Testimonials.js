@@ -38,10 +38,7 @@ class Testimonials extends Component {
         <section className="section" id="testi">
           <Container>
             {/* section title */}
-            <SectionTitle
-              title="TESTIMONIALS"
-              desc="Praesent placerat lectus sed risus dignissim pharetra. Suspendisse potenti. "
-            />
+            <SectionTitle title="TESTIMONIALS" desc="Our pleased clients" />
 
             <Row className="mt-5">
               <TestimonialsBox clients={this.state.clients} />
