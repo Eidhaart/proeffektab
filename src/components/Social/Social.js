@@ -12,7 +12,10 @@ class Social extends Component {
               <Col lg={4}>
                 <ul className="list-inline social mt-4">
                   <li className="list-inline-item">
-                    <Link to="#" className="social-icon">
+                    <Link
+                      to="https://www.facebook.com/profile.php?id=61550101808491"
+                      className="social-icon"
+                    >
                       <i className="mdi mdi-facebook" />
                     </Link>
                   </li>
