@@ -1929,22 +1929,91 @@ textarea.form-control {
 
 .contact-social {
   padding: 20px 0px;
+  background-color: #272a33;
+  color: wheat;
 }
 
 .contact-social .social-icon {
   border: 2px solid #6c7d92;
   border-radius: 50%;
-  color: #815316;
+  color: #a37c48;
   width: 48px;
   height: 48px;
   display: block;
-  font-size: 19px;
+  font-size: 30px;
   line-height: 44px;
   text-align: center;
+  filter: invert(1);
+}
+
+.lang-button-container {
+  display: flex;
+  flex-direction: row !important;
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  z-index: 10;
+}
+
+.lang-button {
+  color: #ffffff !important;
+  border-radius: 50%;
+  margin: 10px;
+  border: none;
+  background: none;
+}
+.lang-button img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .contact-social .contact-title {
   font-size: 20px;
+}
+
+.imagesbox {
+  width: 25px;
+}
+
+.s1 img {
+  content: url("../Service/service-1.png");
+  width: 25px;
+}
+
+.s1 img {
+  content: url("../Service/service-1.png");
+  width: 25px;
+}
+
+.s2 img {
+  content: url("../Service/service-2.png");
+  width: 40px;
+}
+
+.s2 img :hover {
+  content: url("../Service/service-2.png");
+  width: 40px;
+}
+
+.s3 img {
+  content: url("../Service/service-3.png");
+  width: 65PX;
+}
+
+.s4 img {
+  content: url("../Service/service-4.png");
+  width: 55PX;
+}
+
+.s5 img {
+  content: url("../Service/service-5.png");
+  width: 55PX;
+}
+
+.s6 img {
+  content: url("../Service/service-6.png");
+  width: 35PX;
 }
 
 .error_message {
@@ -2209,9 +2278,8 @@ ul.pattern .color8 {
     text-align: -webkit-center !important;
     display: flex !important;
     justify-content: center !important;
-    
+
     margin: 0 auto;
-    
   }
 
   .nav-item {
