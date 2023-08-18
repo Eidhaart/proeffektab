@@ -1,79 +1,78 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row } from "reactstrap";
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
 import ServiceBox from "./services-box";
+import { useTranslation } from "react-i18next";
 
-class Process extends Component {
-  constructor(props) {
-    super(props);
+const Process = props => {
+  const { t, i18n } = useTranslation("common");
+  const [services1] = React.useState([
+    {
+      icon: "pe-7s-piggy",
+      title: t("navbar.painting"),
+      desc: t("navbar.painting1"),
+      iconPath: "s2"
+    },
+    {
+      icon: "pe-7s-piggy",
+      title: t("navbar.woodwork"),
+      desc: t("navbar.woodwork1"),
+      iconPath: "s1"
+    },
+    {
+      icon: "pe-7s-piggy",
+      title: t("navbar.kitchen"),
+      desc: t("navbar.kitchen1"),
+      iconPath: "s3"
+    }
+  ]);
 
-    this.state = {
-      services1: [
-        {
-          icon: "pe-7s-piggy",
-          title: "Painting / Spackling",
-          desc: "Outside and inside",
-          iconPath: "s2"
-        },
-        {
-          icon: "pe-7s-piggy",
-          title: "Woodwork",
-          desc: "From simple woodwork to more complex, like building Terraces",
-          iconPath: "s1"
-        },
-        {
-          icon: "pe-7s-piggy",
-          title: "Kitchen",
-          desc: "Cabinetry and Countertops, Installation of appliances ",
-          iconPath: "s3"
-        }
-      ],
-      services2: [
-        {
-          icon: "pe-7s-science",
-          title: "Bathroom",
-          desc:
-            "Wall and Ceiling Work, Tiling and flooring. Fixture installation ",
-          iconPath: "s4"
-        },
-        {
-          icon: "pe-7s-home",
-          title: "Facade",
-          desc: "Renovation, Replacement of rotten/destroyed planks. "
-        },
-        {
-          icon: "pe-7s-plane",
-          title: "Garden work",
-          desc: "Site Preparation, Hardscaping."
-        }
-      ]
-    };
-  }
+  const [services2] = React.useState([
+    {
+      icon: "pe-7s-science",
+      title: t("navbar.bathroom"),
+      desc: t("navbar.bathroom1"),
+      iconPath: "s4"
+    },
+    {
+      icon: "pe-7s-home",
+      title: t("navbar.facade"),
+      desc: t("navbar.facade1"),
+      iconPath: "s5"
+    },
+    {
+      icon: "pe-7s-plane",
+      title: t("navbar.garden"),
+      desc: t("navbar.garden1"),
+      iconPath: "s6"
+    }
+  ]);
 
-  render() {
-    return (
-      <React.Fragment>
-        <section className={"section " + this.props.sectionClass} id="services">
-          <Container>
-            {/* section title */}
-            <SectionTitle title="Our services" desc="For your needs" />
+  return (
+    <React.Fragment>
+      <section className={"section " + props.sectionClass} id="services">
+        <Container>
+          {/* section title */}
+          <SectionTitle
+            title={t("navbar.services1")}
+            desc={t("navbar.services2")}
+          />
 
-            <Row className="mt-4">
-              {/* services box */}
-              <ServiceBox services={this.state.services1} />
-            </Row>
+          <Row className="mt-4">
+            {/* services box */}
+            <ServiceBox services={services1} />
+          </Row>
 
-            <Row className="mt-4">
-              {/* service box */}
-              <ServiceBox services={this.state.services2} />
-            </Row>
-          </Container>
-        </section>
-      </React.Fragment>
-    );
-  }
-}
+          <Row className="mt-4">
+            {/* service box */}
+            <ServiceBox services={services2} />
+          </Row>
+        </Container>
+      </section>
+    </React.Fragment>
+  );
+};
 
 export default Process;

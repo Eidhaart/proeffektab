@@ -7,16 +7,7 @@ import i18next from "./components/translation/i18n";
 import { I18nextProvider } from "react-i18next";
 import { useTranslation } from "react-i18next";
 
-function HeaderComponent() {
-  const { t, i18n } = useTranslation("common");
-  return (
-    <h1>
-      {t("welcome.title")}
-      <button onClick={() => i18n.changeLanguage("se")}>se</button>
-      <button onClick={() => i18n.changeLanguage("en")}>en</button>
-    </h1>
-  );
-}
+
 
 function App() {
   return (
@@ -27,7 +18,7 @@ function App() {
             <Route path={route.path} element={route.component} key={idx} />
           )}
         </Routes>
-        <HeaderComponent />
+        {/* <HeaderComponent /> */}
       </I18nextProvider>
     </React.Fragment>
   );

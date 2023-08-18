@@ -1,13 +1,18 @@
 import React, { useEffect, useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Container, Row, Col } from "reactstrap";
+import { useTranslation } from "react-i18next";
 const Result = () => {
+  const { t, i18n } = useTranslation("common");
   return (
-    <p>Your message has been successfully sent. We will contact you shortly</p>
+    <p>
+      {t("navbar.sendsuccess")}
+    </p>
   );
 };
 
 export const ContactComponent = () => {
+  const { t, i18n } = useTranslation("common");
   const [result, showResult] = useState(false);
 
   const form = useRef();
@@ -37,7 +42,7 @@ export const ContactComponent = () => {
   return (
     <Col>
       <br />
-      Contact Form
+      {t("navbar.contactform")}
       <br />
       <bt />
       <div className="form">
@@ -52,7 +57,7 @@ export const ContactComponent = () => {
                       type="text"
                       name="fullName"
                       required
-                      placeholder="Full Name*"
+                      placeholder={t("navbar.contactformname") + "*"}
                     />
                   </div>
                 </div>
@@ -63,7 +68,7 @@ export const ContactComponent = () => {
                       type="text"
                       name="phone"
                       required
-                      placeholder="Phone Number"
+                      placeholder={t("navbar.contactformphone") + "*"}
                     />
                   </div>
                 </div>
@@ -88,7 +93,7 @@ export const ContactComponent = () => {
                       type="text"
                       name="subject"
                       required
-                      placeholder="Subject*"
+                      placeholder={t("navbar.contactformsaubject") + "*"}
                     />
                   </div>
                 </div>
@@ -105,7 +110,7 @@ export const ContactComponent = () => {
                     id="comments"
                     rows="4"
                     required
-                    placeholder="Message"
+                    placeholder={t("navbar.contactformmessage")}
                   />
                 </div>
               </div>
@@ -118,7 +123,7 @@ export const ContactComponent = () => {
                   id="submit"
                   name="send"
                   class="submitBnt btn btn-primary"
-                  value="Send Message"
+                  value={t("navbar.contactformsned")}
                 />
               </div>
             </div>

@@ -46,10 +46,10 @@ class Footer extends Component {
     return (
       
       <React.Fragment>
-        <footer className="footer">
+        {/* <footer className="footer">
           <Container>
-            <Row>
-              {this.state.links.map((fLink, key) =>
+            <Row> */}
+              {/* {this.state.links.map((fLink, key) =>
                 <Col key={key} lg={3} className="mt-4">
                   <h4>
                     {fLink.title}
@@ -66,7 +66,7 @@ class Footer extends Component {
                     </ul>
                   </div>
                 </Col>
-              )}
+              )} */}
 
               {/* <Col lg={3} className="mt-4">
                 <h4>Subscribe</h4>
@@ -88,10 +88,10 @@ class Footer extends Component {
                   </Link>
                 </Form>
               </Col> */}
-            </Row>
-          </Container>
+            {/* </Row>
+          </Container> */}
           
-        </footer>
+        {/* </footer> */}
         {/* Render footer links */}
         <FooterLinks />
 

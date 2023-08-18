@@ -33,7 +33,11 @@
 }
 
 .s5 img {
+  content: url("../Service/service-5.png");
+  width: 55PX;
 }
 
 .s6 img {
+  content: url("../Service/service-6.png");
+  width: 35PX;
 }

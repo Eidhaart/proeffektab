@@ -1,6 +1,45 @@
 {
     "navbar": {
         "home": "Home",
-        "services": "Services"
+        "services": "Services",
+        "contact": "Contact",
+        "slogan": "Your Vision, Our Expertise",
+        "slogan2": "Unmatched Skill, Great Craftsmanship, Timely Delivery and Transparent Communication",
+        "services1": "Our services",
+        "services2": "For your needs",
+        "painting": "Painting/Spackling",
+        "painting1": "Outside and inside",
+        "woodwork": "Woodwork",
+        "woodwork1": "From simple woodwork to more complex, like building terraces",
+        "kitchen": "Kitchen",
+        "kitchen1": "Cabinetry and countertops, installation of appliances",
+        "bathroom": "Bathroom",
+        "bathroom1": "Wall and ceiling work, tiling and flooring, fixture installation",
+        "facade": "Facade",
+        "facade1": "Renovation, replacement of rotten/destroyed planks",
+        "garden": "Garden Work",
+        "garden1": "Site preparation, Hardscaping",
+        "contactustoday": "Contact us today",
+        "contactustoday1": "Are you ready to discuss your construction needs and obtain a free, no-obligation quote? Contact the helpful staff at Proeffekt AB right now. Our professionals are here to help you at any stage of your project, whether it's residential, commercial, or industrial.",
+        "contactprocess": "Contact us",
+        "contactprocess1": "Ask a question",
+        "quoteprocess": "Free quote",
+        "quoteprocess1": "Transparent communication",
+        "toworkprocess": "Getting to work",
+        "toworkprocess1": "In cooperation with the client",
+        "getintouch": "Get in touch",
+        "getintouch1": "We enjoy coming up with fresh ideas, but we also recognize that a clever idea needs to be backed up by measurable results.",
+        "contactformname": "Name",
+        "contactformphone": "Phone Number",
+        "contactformsaubject": "Subject",
+        "contactformmessage": "Message",
+        "process": "Work Process",
+        "contactform": "Contact form",
+        "sendsuccess": "Your message has been successfully sent. We will contact you shortly",
+        "contactformsned": "Send Message"
+
+
+
+
     }
 }

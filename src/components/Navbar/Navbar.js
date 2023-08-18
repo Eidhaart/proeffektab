@@ -10,6 +10,14 @@ import { useTranslation } from "react-i18next";
 
 import "./Navbar.css";
 
+// function HeaderComponent() {
+
+//   const { t, i18n } = useTranslation("common");
+//   return (
+
+//   );
+// }
+
 const Navbar = () => {
   const { t, i18n } = useTranslation("common");
   const [click, setClick] = useState(false);
@@ -51,11 +59,7 @@ const Navbar = () => {
             </div>
             <div className="container1">
               <a href="/" className="logo">
-                <NavbarBrand
-                  id="logo"
-                  className="logo text-uppercase"
-                  href="/proeffektab"
-                >
+                <NavbarBrand id="logo" className="logo text-uppercase" href="/">
                   ProEffekt AB
                 </NavbarBrand>
               </a>
@@ -115,9 +119,14 @@ const Navbar = () => {
                     {t("navbar.contact")}
                   </Link>
                 </li>
+                <li className="nav-item" id="nav-item">
+                  
+                </li>
               </ul>
+              
             </div>
           </Container>
+          
         </nav>
       </div>
     </React.Fragment>
