@@ -1,14 +1,13 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
-
-//Import Section Title
 import SectionTitle from "../common/section-title";
 import ServiceBox from "./services-box";
 import { useTranslation } from "react-i18next";
 
 const Process = props => {
-  const { t, i18n } = useTranslation("common");
-  const [services1] = React.useState([
+  const { t } = useTranslation("common");
+
+  const services1 = [
     {
       icon: "pe-7s-piggy",
       title: t("navbar.painting"),
@@ -27,9 +26,9 @@ const Process = props => {
       desc: t("navbar.kitchen1"),
       iconPath: "s3"
     }
-  ]);
+  ];
 
-  const [services2] = React.useState([
+  const services2 = [
     {
       icon: "pe-7s-science",
       title: t("navbar.bathroom"),
@@ -48,25 +47,20 @@ const Process = props => {
       desc: t("navbar.garden1"),
       iconPath: "s6"
     }
-  ]);
+  ];
 
   return (
     <React.Fragment>
       <section className={"section " + props.sectionClass} id="services">
         <Container>
-          {/* section title */}
           <SectionTitle
             title={t("navbar.services1")}
             desc={t("navbar.services2")}
           />
-
           <Row className="mt-4">
-            {/* services box */}
             <ServiceBox services={services1} />
           </Row>
-
           <Row className="mt-4">
-            {/* service box */}
             <ServiceBox services={services2} />
           </Row>
         </Container>
