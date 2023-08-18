@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/proeffektab/static/css/main.797e5156.css",
-    "main.js": "/proeffektab/static/js/main.1a846d53.js",
-    "static/js/787.44d76caa.chunk.js": "/proeffektab/static/js/787.44d76caa.chunk.js",
-    "static/media/home-icon.png": "/proeffektab/static/media/home-icon.0ac43610a077f4b45834.png",
-    "static/media/mail-icon.png": "/proeffektab/static/media/mail-icon.1253c14a42e537df63f2.png",
-    "index.html": "/proeffektab/index.html",
-    "main.797e5156.css.map": "/proeffektab/static/css/main.797e5156.css.map",
-    "main.1a846d53.js.map": "/proeffektab/static/js/main.1a846d53.js.map",
-    "787.44d76caa.chunk.js.map": "/proeffektab/static/js/787.44d76caa.chunk.js.map"
+    "main.css": "/static/css/main.afa94cab.css",
+    "main.js": "/static/js/main.6ccd5c85.js",
+    "static/js/787.44d76caa.chunk.js": "/static/js/787.44d76caa.chunk.js",
+    "static/media/home-icon.png": "/static/media/home-icon.0ac43610a077f4b45834.png",
+    "static/media/service-1.png": "/static/media/service-1.69b62c6d84085090d89a.png",
+    "static/media/mail-icon.png": "/static/media/mail-icon.1253c14a42e537df63f2.png",
+    "static/media/service-4.png": "/static/media/service-4.11d8c18571655733e0e6.png",
+    "index.html": "/index.html",
+    "main.afa94cab.css.map": "/static/css/main.afa94cab.css.map",
+    "main.6ccd5c85.js.map": "/static/js/main.6ccd5c85.js.map",
+    "787.44d76caa.chunk.js.map": "/static/js/787.44d76caa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.797e5156.css",
-    "static/js/main.1a846d53.js"
+    "static/css/main.afa94cab.css",
+    "static/js/main.6ccd5c85.js"
   ]
 }
