@@ -39,6 +39,7 @@ export const ContactComponent = () => {
       <br />
       Contact Form
       <br />
+      <bt />
       <div className="form">
         <form ref={form} action="" onSubmit={sendEmail} name="myForm">
           <div>

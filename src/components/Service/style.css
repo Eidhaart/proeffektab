@@ -1,0 +1,39 @@
+.imagesbox {
+  width: 25px;
+}
+
+.s1 img {
+  content: url("../Service/service-1.png");
+  width: 25px;
+}
+
+.s1 img {
+  content: url("../Service/service-1.png");
+  width: 25px;
+}
+
+.s2 img {
+  content: url("../Service/service-2.png");
+  width: 40px;
+}
+
+.s2 img :hover {
+  content: url("../Service/service-2.png");
+  width: 40px;
+}
+
+.s3 img {
+  content: url("../Service/service-3.png");
+  width: 65PX;
+}
+
+.s4 img {
+  content: url("../Service/service-4.png");
+  width: 55PX;
+}
+
+.s5 img {
+}
+
+.s6 img {
+}

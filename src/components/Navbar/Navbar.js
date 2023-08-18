@@ -5,10 +5,13 @@ import { NavbarBrand } from "reactstrap";
 import { Container } from "reactstrap";
 import logo from "./logo192.png";
 import logoblank from "./logotypblank.png";
+import i18n from "../translation/i18n";
+import { useTranslation } from "react-i18next";
 
 import "./Navbar.css";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation("common");
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -48,7 +51,11 @@ const Navbar = () => {
             </div>
             <div className="container1">
               <a href="/" className="logo">
-                <NavbarBrand id="logo" className="logo text-uppercase" href="/proeffektab">
+                <NavbarBrand
+                  id="logo"
+                  className="logo text-uppercase"
+                  href="/proeffektab"
+                >
                   ProEffekt AB
                 </NavbarBrand>
               </a>
@@ -69,7 +76,7 @@ const Navbar = () => {
                     duration={500}
                     onClick={closeMenu}
                   >
-                    Home
+                    {t("navbar.home")}
                   </Link>
                 </li>
                 <li className="nav-item" id="nav-item">
@@ -81,10 +88,10 @@ const Navbar = () => {
                     duration={500}
                     onClick={closeMenu}
                   >
-                    Services
+                    {t("navbar.services")}
                   </Link>
                 </li>
-                <li className="nav-item" id="nav-item">
+                {/* <li className="nav-item" id="nav-item">
                   <Link
                     to="team"
                     spy={true}
@@ -95,7 +102,7 @@ const Navbar = () => {
                   >
                     Crew
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item" id="nav-item">
                   <Link
                     to="contact"
@@ -105,7 +112,7 @@ const Navbar = () => {
                     duration={500}
                     onClick={closeMenu}
                   >
-                    Contact
+                    {t("navbar.contact")}
                   </Link>
                 </li>
               </ul>

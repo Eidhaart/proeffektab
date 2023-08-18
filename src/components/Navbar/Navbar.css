@@ -66,8 +66,7 @@
 }
 
 .header .nav-menu {
-  display: flex;
-  padding-left: 80%;
+  margin-left: 200px;
 }
 
 .header .nav-item {
@@ -110,7 +109,13 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1202px) {
+  .header .nav-menu {
+    width: 10px;
+  }
+}
+
+@media screen and (max-width: 1034px) {
   .icon1 {
     width: 60px;
     filter: invert(1);
@@ -169,7 +174,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: aquamarine;
   }
 
   .nav-menu.active {

@@ -8,41 +8,47 @@ import ServiceBox from "./services-box";
 class Process extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       services1: [
         {
-          icon: "pe-7s-diamond",
+          icon: "pe-7s-piggy",
           title: "Painting / Spackling",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
+          desc: "Outside and inside",
+          iconPath: "s2"
         },
         {
-          icon: "pe-7s-display2",
+          icon: "pe-7s-piggy",
           title: "Woodwork",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
+          desc: "From simple woodwork to more complex, like building Terraces",
+          iconPath: "s1"
         },
         {
           icon: "pe-7s-piggy",
           title: "Kitchen",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
-        },
+          desc: "Cabinetry and Countertops, Installation of appliances ",
+          iconPath: "s3"
+        }
       ],
       services2: [
         {
           icon: "pe-7s-science",
           title: "Bathroom",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
+          desc:
+            "Wall and Ceiling Work, Tiling and flooring. Fixture installation ",
+          iconPath: "s4"
         },
         {
-          icon: "pe-7s-news-paper",
+          icon: "pe-7s-home",
           title: "Facade",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
+          desc: "Renovation, Replacement of rotten/destroyed planks. "
         },
         {
           icon: "pe-7s-plane",
           title: "Garden work",
-          desc: "orem ipsum dolor sit amet, consectetur adipiscing elit. ",
-        },
-      ],
+          desc: "Site Preparation, Hardscaping."
+        }
+      ]
     };
   }
 

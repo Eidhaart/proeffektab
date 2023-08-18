@@ -9,35 +9,16 @@ class Social extends Component {
         <section className="contact-social bg-light">
           <Container>
             <Row className="align-items-center">
-              <Col lg={6}>
+              <Col lg={4}>
                 <ul className="list-inline social mt-4">
                   <li className="list-inline-item">
                     <Link to="#" className="social-icon">
                       <i className="mdi mdi-facebook" />
                     </Link>
                   </li>
-                  {/* <li className="list-inline-item">
-                    <Link to="#" className="social-icon">
-                      <i className="mdi mdi-twitter" />
-                    </Link>
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#" className="social-icon">
-                      <i className="mdi mdi-linkedin" />
-                    </Link>
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#" className="social-icon">
-                      <i className="mdi mdi-google-plus" />
-                    </Link>
-                  </li>
-                  <li className="list-inline-item">
-                    <Link to="#" className="social-icon">
-                      <i className="mdi mdi-microsoft-xbox" />
-                    </Link>
-                  </li> */}
                 </ul>
               </Col>
+
               <Col lg={4} className="mt-4">
                 <p className="contact-title">
                   <i className="pe-7s-call" /> &nbsp;+46 70-557 76 20

@@ -31,7 +31,7 @@ class Clients extends Component {
           <Container>
             {/* section title */}
             <SectionTitle
-              title="CREW"
+              title="Team"
               desc="Meet the people behind the company"
             />
             <div className="team-box1">

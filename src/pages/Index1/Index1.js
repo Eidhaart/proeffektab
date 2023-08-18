@@ -15,6 +15,7 @@ import Social from "../../components/Social/Social";
 import Footer from "../../components/Footer/footer";
 import NavButtons from "../../components/Navbar/NavButtons";
 import AboutUs from "../../components/AboutUs/AboutUs";
+import i18n from "../../components/translation/i18n";
 
 class Index1 extends Component {
   constructor(props) {
@@ -40,6 +41,7 @@ class Index1 extends Component {
       <React.Fragment>
         {/* Importing Navbar */}
         <Navbar />
+        
         {/* <NavbarPage
           navItems={this.state.navItems}
           navClass={this.state.navClass}
@@ -51,7 +53,7 @@ class Index1 extends Component {
         {/* website description */}
         <WebsiteDesc />
         {/* team */}
-        <Team />
+        {/* <Team /> */}
         {/* process */}
         <Process />
         {/* testimonial */}
@@ -60,7 +62,7 @@ class Index1 extends Component {
         <GetStart />
         {/* contact */}
         <Contact />
-        <AboutUs />
+        {/* <AboutUs /> */}
         {/* social */}
         <Social />
         {/* footer */}

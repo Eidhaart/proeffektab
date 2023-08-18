@@ -3,6 +3,24 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, HashRouter } from "react-router-dom";
+import common_en from "./components/translation/en/common.json";
+import common_se from "./components/translation/se/common.json";
+import i18next from "./components/translation/i18n";
+
+import { Form } from "reactstrap";
+
+i18next.init({
+  interpolation: { escapeValue: false }, // React already does escaping
+  lng: "se", // language to use
+  resources: {
+    en: {
+      common: common_en // 'common' is our custom namespace
+    },
+    se: {
+      common: common_se
+    }
+  }
+});
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
