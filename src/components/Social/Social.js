@@ -29,7 +29,7 @@ class Social extends Component {
               </Col>
               <Col lg={4} className="mt-4 text-end">
                 <p className="contact-title">
-                  <i className="pe-7s-mail-open" />&nbsp; Proeffektab@gmail.com
+                  <i className="pe-7s-mail-open" />&nbsp; info@proeffekt.se
                 </p>
               </Col>
             </Row>
